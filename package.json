@@ -11,7 +11,10 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
-    "@capacitor/core": "^8.0.2",
+    "@capacitor/android": "^8.0.2",
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/core": "^8.0.1",
+    "@capacitor/haptics": "^8.0.0",
     "@capacitor/ios": "^8.0.1",
     "@capgo/capacitor-native-biometric": "^8.3.1",
     "@sumsub/websdk-react": "^2.6.1",
@@ -27,7 +30,7 @@
     "recharts": "^3.7.0"
   },
   "devDependencies": {
-    "@capacitor/cli": "^8.0.2",
+    "@capacitor/cli": "^8.0.1",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.20",
     "gh-pages": "^6.1.1",
